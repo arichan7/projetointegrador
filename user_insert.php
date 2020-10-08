@@ -4,7 +4,7 @@
 	<title>User login</title>
 </head>
 <body>
-    <form action="https://arichan7.github.io/projetointegrador/cadastro.html" method="POST">
+    <form action="user_insert.php" method="POST">
         User login: 
         <input type="text" placeholder="username" name="username">
         <input type="password" placeholder="password" name="password">
