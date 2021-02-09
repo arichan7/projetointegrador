@@ -1,2 +1,2 @@
 # projetointegrador
-integrados informaticamente
+Esse código é referente ao site do Tripou.
