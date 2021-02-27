@@ -8,7 +8,7 @@ class MysqlMensagem {#implements PersisteMensagem {
 	function __construct() {
 		$hostname = 'localhost';
 		$database = 'tripou';
-		$username = 'root';
+		$username = 'tripou';
 		$password = '';
 		$this->mysqlconnection = new mysqli($hostname, $username, $password, $database);
 	}
