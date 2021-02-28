@@ -12,7 +12,10 @@
 	<?php require_once 'usuariologado.php'; ?>
 	<?php require_once 'inseremensagem.php'; ?>
 	<br>
-	<?php require_once 'listamensagens.php'; ?>
+	<?php 
+	# Seu repositório não tem o arquivo listamensagens
+	#require_once 'listamensagens.php'; 
+	?>
 	</center>
 	
 </body>

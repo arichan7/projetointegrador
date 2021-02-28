@@ -7,7 +7,7 @@ class Mysql implements PersisteCredencial {
 	function __construct() {
 		$hostname = 'localhost';
 		$database = 'tripou';
-		$username = 'root';
+		$username = 'tripou'; #não use o usuário root 
 		$password = '';
 		$this->mysqlconnection = new mysqli($hostname, $username, $password, $database);
 	}

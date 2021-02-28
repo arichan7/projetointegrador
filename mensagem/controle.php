@@ -6,16 +6,16 @@
 	function carregaMensagens(){
 		$mensagens = array();
 		
-		&mensagem = criaMensagem("Primeiro post", "teddy", "2020-12-25 12:34:56");
+		$mensagem = criaMensagem("Primeiro post", "teddy", "2020-12-25 12:34:56");
 		array_push($mensagens, $mensagem);
 		
-		&mensagem = criaMensagem("Segundo post", "teddy", "2020-12-26 12:34:56");
+		$mensagem = criaMensagem("Segundo post", "teddy", "2020-12-26 12:34:56");
 		array_push($mensagens, $mensagem);
 		
 		return $mensagens;
 	}
 
-	class ControleMensagem(){
+	class ControleMensagem {
 		private $mensagens;
 		
 		function __construct(){
